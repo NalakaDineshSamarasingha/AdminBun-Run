@@ -1,0 +1,49 @@
+/* src/components/AddBun.css */
+.add-bun-container {
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-bun-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-bun-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.add-bun-form input,
+.add-bun-form select {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-bun-form button {
+  padding: 8px 15px; /* Small padding */
+  font-size: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto; /* Adjust width to fit content */
+}
+
+.add-bun-form button:hover {
+  background-color: #45a049;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
